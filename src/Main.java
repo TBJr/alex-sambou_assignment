@@ -1,4 +1,3 @@
-import com.ecommerce.*;
 import com.ecommerce.orders.*;
 
 public class Main {
