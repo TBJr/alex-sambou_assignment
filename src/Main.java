@@ -7,7 +7,7 @@ public class Main {
         com.ecommerce.Product product2 = new com.ecommerce.Product(2, "Smartphone", 599.99);
 
         // Create instance of customer
-        com.ecommerce.Customer customer = new com.ecommerce.Customer(1, "Alex");
+        com.ecommerce.Customer customer = new com.ecommerce.Customer("Alex");
 
         // Add products to the customer's shopping cart
         customer.addToCart(product1);
